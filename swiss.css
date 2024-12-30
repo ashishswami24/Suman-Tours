@@ -1,0 +1,139 @@
+/* styles.css */
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+header {
+    background-color: #0056b3;
+    color: #fff;
+    padding: 1rem 0;
+}
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2rem;
+}
+header nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+header nav ul li {
+    margin-left: 1rem;
+}
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    transition: background-color 0.3s ease;
+}
+header nav ul li a:hover {
+    background-color: #004494;
+    border-radius: 5px;
+}
+.hero {
+    background: url('switzerland.jpg') no-repeat center center/cover;
+    color: #fff;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    box-shadow: inset 0 0 0 2000px rgba(0,0,0,0.3);
+}
+.hero h2 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    text-shadow: 2px 2px 4px #000000;
+}
+.hero p {
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+    text-shadow: 2px 2px 4px #000000;
+}
+.hero .btn {
+    background-color: #ff5733;
+    color: #fff;
+    padding: 0.75rem 1.5rem;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.hero .btn:hover {
+    background-color: #e04a2e;
+}
+.details {
+    padding: 2rem 0;
+    background-color: #fff;
+}
+.details h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+    color: #0056b3;
+    text-transform: uppercase;
+}
+.details .package-cost {
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 1.5rem;
+    color: #d9534f;
+}
+.details ul {
+    list-style-type: none;
+    padding: 0;
+}
+.details ul li {
+    background: #f9f9f9;
+    margin: 1rem 0;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+.details ul li:hover {
+    transform: scale(1.05);
+}
+.details ul li h3 {
+    margin-top: 0;
+    font-size: 1.25rem;
+    color: #333;
+}
+.details ul li p {
+    color: #555;
+}
+.details ul li img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 0.5rem;
+}
+.notes {
+    padding: 2rem 0;
+    background-color: #e9ecef;
+}
+.notes h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+    color: #0056b3;
+    text-transform: uppercase;
+}
+.notes ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+.notes ul li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+    color: #555;
+}
+.notes ul li i {
+    color: #28a745;
+    margin-right:[_{{{CITATION{{{_1{](https://github.com/tejasparkar/andeverywherewebsite/tree/18aedd59db29c5e23e1a8623807bca92ab4d55c3/resources%2Fjs%2Fcomponents%2FHeader.js)[_{{{CITATION{{{_2{](https://github.com/GaurabAryal/Fungeons-Web/tree/ff0103a65ed8373c0d519f1c3144882b1c55759a/index.php)[_{{{CITATION{{{_3{](https://github.com/CarlNierves/CarlNierves.github.io/tree/faf325f68517f148ef66653d9dbd3488d7e85b91/index.php)
